@@ -8,13 +8,13 @@
 Summary:	Test::TCP - testing TCP program
 #Summary(pl.UTF-8):	
 Name:		perl-Test-TCP
-Version:	1.14
+Version:	1.15
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Test/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	f328b8b207ade2aba981bddb4cc2dd31
+# Source0-md5:	34a449920cff4a591d4a65a28b354d0a
 # generic URL, check or change before uncommenting
 #URL:		http://search.cpan.org/dist/Test-TCP/
 BuildRequires:	perl-devel >= 1:5.8.0
