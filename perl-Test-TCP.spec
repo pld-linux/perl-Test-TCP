@@ -1,12 +1,11 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
+
 %define		pdir	Test
 %define		pnam	TCP
 %include	/usr/lib/rpm/macros.perl
 Summary:	Test::TCP - testing TCP program
-#Summary(pl.UTF-8):	
 Name:		perl-Test-TCP
 Version:	1.15
 Release:	1
@@ -15,8 +14,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Test/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	34a449920cff4a591d4a65a28b354d0a
-# generic URL, check or change before uncommenting
-#URL:		http://search.cpan.org/dist/Test-TCP/
+URL:		http://search.cpan.org/dist/Test-TCP/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
@@ -27,9 +25,6 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Test::TCP is test utilities for TCP/IP programs.
-
-# %description -l pl.UTF-8
-# TODO
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
