@@ -8,13 +8,13 @@
 Summary:	Test::TCP - testing TCP program
 Summary(pl.UTF-8):	Test::TCP - testowanie programów TCP
 Name:		perl-Test-TCP
-Version:	2.19
+Version:	2.22
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Test/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	1c9f50fd13733a9a760808ec530fe295
+# Source0-md5:	d539ad6b16856e863a6b6b54fa58df33
 URL:		http://search.cpan.org/dist/Test-TCP/
 BuildRequires:	perl-devel >= 1:5.8.1
 BuildRequires:	rpm-perlprov >= 4.1-13
