@@ -4,7 +4,6 @@
 
 %define		pdir	Test
 %define		pnam	TCP
-%include	/usr/lib/rpm/macros.perl
 Summary:	Test::TCP - testing TCP program
 Summary(pl.UTF-8):	Test::TCP - testowanie programów TCP
 Name:		perl-Test-TCP
