@@ -8,7 +8,7 @@ Summary:	Test::TCP - testing TCP program
 Summary(pl.UTF-8):	Test::TCP - testowanie programów TCP
 Name:		perl-Test-TCP
 Version:	2.22
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
